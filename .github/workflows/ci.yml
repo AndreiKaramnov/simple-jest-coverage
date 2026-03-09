@@ -30,8 +30,9 @@ jobs:
         run: npm run test:coverage
 
       - name: Check coverage thresholds
+        if: always()
         run: |
-          echo "Coverage report generated successfully"
+          echo "🔍 Checking coverage report..."
           if [ -f coverage/lcov.info ]; then
             echo "✅ Coverage file exists"
           else
