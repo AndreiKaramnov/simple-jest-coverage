@@ -39,4 +39,6 @@ npm install
 
 ## Coverage
 
-Run `npm run test:coverage` to see the coverage report. HTML report is generated in `coverage/lcov-report/index.html`.
+Run `npm run test:coverage` to see the coverage report. 
+Coverage thresholds are configured in `jest.config.ts`.
+HTML report is generated in `coverage/lcov-report/index.html`.

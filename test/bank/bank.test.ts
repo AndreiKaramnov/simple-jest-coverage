@@ -17,5 +17,5 @@ describe('Bank', () => {
     })
   })
 
-  // TODO: withdraw tests to increase coverage
+  // TODO: withdraw tests to increase coverage according to the threshold
 })
