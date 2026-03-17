@@ -23,8 +23,8 @@ describe('Bank', () => {
       expect(bank.getBalance()).toBe(100)
 
       bank.withdraw(50)
-     expect(bank.getBalance()).toBe(50)
-      //expect(bank.hasEnoughBalance()).toBeTruthy()
+      expect(bank.getBalance()).toBe(50)
+      expect(bank.hasEnoughBalance()).toBeTruthy()
     })
   })
 })
